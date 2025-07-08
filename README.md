@@ -51,25 +51,6 @@ Our systems were evaluated on the official M-DAIGT test set. The RoBERTa-based s
 | Candace (System 3) | Academic (Subtask 2) | 99.95% | 99.95% | 100.00% | 99.90% |
 
 
-## 📄 Citation
-
-If you find our work useful in your research, please cite our paper:
-
-```bibtex
-@inproceedings{zain-etal-2025-multi-strategy,
-    title = "A Multi-Strategy Approach for AI-Generated Text Detection",
-    author = "Zain, Ali  and
-      Farooqui, Sareem  and
-      Rafi, Muhammad",
-    booktitle = "Proceedings of the 15th International Conference on Recent Advances in Natural Language Processing (RANLP 2025)",
-    month = "September",
-    year = "2025",
-    address = "Varna, Bulgaria",
-    publisher = "INCOMA Ltd."
-}
-```
-*(Note: BibTeX details are based on the paper's context and may need to be updated upon official publication.)*
-
 ## 🙏 Acknowledgments
 
 We thank the organizers of the M-DAIGT shared task for providing the dataset and the evaluation platform. This research is also supported by the provisional award under the National Research Program for Universities (NRPU), Higher Education Commission (HEC) Pakistan (Reference Research Project No. 16153).
