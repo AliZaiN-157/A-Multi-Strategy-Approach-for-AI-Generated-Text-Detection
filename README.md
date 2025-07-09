@@ -22,18 +22,21 @@ We developed three systems, each employing a different strategy for text detecti
 ### 1. RoBERTa-based Classifier (Primary Submission)
 A fine-tuned `roberta-base` model. The input text is tokenized, and the final hidden state of the `[CLS]` token is passed through a linear layer for binary classification. This model proved to be the most effective and was our final submission for both subtasks.
 
+![Figure 1: Architecture of the RoBERTa-based Classifier](Images/roberta.jpg)
 
 *Figure 1: Architecture of the RoBERTa-based Classifier.*
 
 ### 2. TF-IDF + SVM Classifier
 A traditional machine learning pipeline that serves as a strong baseline. It uses TF-IDF (Term Frequency-Inverse Document Frequency) to vectorize text into n-gram features (n=2, 3), which are then classified by a Linear Support Vector Machine (SVM).
 
+![Figure 2: Architecture of the TF-IDF + SVM Classifier](Images/svm.png)
 
 *Figure 2: Architecture of the TF-IDF + SVM Classifier.*
 
 ### 3. Candace: Llama-Feature Ensemble
 An experimental system that extracts probabilistic features from a suite of Llama-3.2 models (1B & 3B, base & instruct variants). These features (log-probabilities, entropy) are then fed into a custom Transformer Encoder-based classifier for the final prediction.
 
+![Figure 3: Architecture of the Candace System](Images/candace.png)
 
 *Figure 3: Architecture of the Candace System.*
 
