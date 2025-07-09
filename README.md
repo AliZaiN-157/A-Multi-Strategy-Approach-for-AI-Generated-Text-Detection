@@ -1,6 +1,6 @@
 # A Multi-Strategy Approach for AI-Generated Text Detection
 
-This repository provides a summary of our paper, **"A Multi-Strategy Approach for AI-Generated Text Detection,"** which was submitted to the [M-DAIGT (Multi-domain Detection of AI-Generated Text) Shared Task](https://sites.google.com/view/m-daigt-ranlp2025) at RANLP 2025.
+This repository provides a summary of our paper, **"A Multi-Strategy Approach for AI-Generated Text Detection,"** which was submitted to the [M-DAIGT (Multi-domain Detection of AI-Generated Text) Shared Task](https://ezzini.github.io/M-DAIGT/) at RANLP 2025.
 
 **Authors:** [Ali Zain](mailto:vin.alizain@gmail.com), [Sareem Farooqui](mailto:sareemfarooqui10@gmail.com), [Dr. Muhammad Rafi](mailto:muhammad.rafi@nu.edu.pk)  
 **Affiliation:** National University of Computer and Emerging Sciences, FAST, Karachi, Pakistan
